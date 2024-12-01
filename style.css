@@ -1,0 +1,62 @@
+body{
+    /* position: absolute; */
+    margin:0;
+    background-image: url(./asset/sunny.jpeg);
+    contain:initial;
+}
+.main{
+    /* position: absolute; */
+    font-weight: bolder;
+    justify-content: center;
+    /* background-color: green; */
+    /* background-image:image(); */
+    
+    
+}
+.container{
+    
+    /* background-color: blue; */
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    padding-top: 50px;
+}
+.inputfield{
+    
+    /* background-color: black; */
+    height: 100px;
+    width:400px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 125px;
+}
+.input{
+   
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    border: none;
+}
+button{
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    border: none;
+}
+.output{
+    width: 350px;
+    background-color:rgba(66, 62, 62, 0.264);
+    height: 100px;
+    margin: auto;
+    margin-top: 0px;
+    margin-right: 150px;
+    border-radius: 20px;
+}
+span{
+    font-weight:bold;
+    font-style:inherit;
+    color: white;
+    font-size:larger;
+    padding-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
