@@ -7,11 +7,11 @@ async function fetchdata(){
         
     
 
-        let weather=(data.weather.main)
+        let weather=(data.weather[0].main)
         // let rain=(data.rain.1h)
         let clouds=(data.clouds.all)
         let wind=(data.wind.speed)
-
+console.log(weather)
         weather=[...data.weather]
         str=``
         weather.map((data)=>{
